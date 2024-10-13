@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".LoginActivity">
+
+    <ImageButton
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo_color"
+        app:civ_border_color="#FF000000"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:hint="email"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.267"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/senha"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:hint="password"
+        android:inputType="text|textPassword"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"
+        app:layout_constraintVertical_bias="0.401"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/edit_profile"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="212dp"
+        android:backgroundTint="#1E88E5"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senha"
+        app:layout_constraintVertical_bias="0.971"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/create"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Create New Account"
+        android:textColor="#032BFF"
+        android:textSize="20sp"
+        app:civ_border_color="#FF000000"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile"
+        app:layout_constraintVertical_bias="0.62"
+        tools:ignore="UnknownId" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775334845826",
+    "project_id": "nexus-514ed",
+    "storage_bucket": "nexus-514ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775334845826:android:8e87ec697520c3806c839b",
+        "android_client_info": {
+          "package_name": "com.chariot.nexus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRXlrEb4A-ockhsZLN9rNwRUINKiHxyxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

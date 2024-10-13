@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nexus</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_teste">teste</string>
+    <string name="add">Add</string>
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_fragment">Add Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="reels_fragment">Reels Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="biofrafia">biofrafia</string>
+    <string name="nome_completo">nome completo</string>
+    <string name="biografia">Biografia</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="seguidores">Seguidores</string>
+    <string name="todo">TODO</string>
+</resources>
